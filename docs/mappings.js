@@ -1,5 +1,5 @@
 var mac2Bones = {
-  "00:00:00:00:00:00" : {id: "LeftArm", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
+  "24:62:AB:DD:C4:3C" : {id: "LeftArm", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "84:0D:8E:07:32:24" : {id: "LeftForeArm", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "00:00:00:00:00:02" : {id: "LeftHand", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "00:00:00:00:00:03" : {id: "LeftUpLeg", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
@@ -7,7 +7,7 @@ var mac2Bones = {
   "00:00:00:00:00:05" : {id: "LeftFoot", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "00:00:00:00:00:06" : {id: "LeftShoulder", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "00:00:00:00:00:07" : {id: "LeftToeBase", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
-  "24:62:AB:DD:C4:3C" : {id: "RightForeArm", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
+  "00:00:00:00:00:00" : {id: "RightForeArm", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "00:00:00:00:00:09" : {id: "RightArm", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "00:00:00:00:00:10" : {id: "RightHand", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
   "00:00:00:00:00:11" : {id: "RightUpLeg", calibration:{x:0, y:0, z:0, w:1}, last:{x:0, y:0, z:0, w:1}},
