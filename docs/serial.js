@@ -221,30 +221,3 @@ function saveSetting(setting, value) {
 
 
 
-function updateCube()
-{
-  w = orientation[0]
-  x = orientation[1]
-  y = orientation[2]
-  z = orientation[3]
-  var q = new Quaternion(w,x,y,z);
-  var qC = new Quaternion(wZ,xZ,yZ,zZ).inverse()
-  console.log(w, x,y,z)
-  document.getElementById("cube").style.transform = 'translateZ(-100px) matrix3d(' + q.mul(qC).toMatrix4() + ')';
-}
-
-var wZ= 0
-var xZ= 0
-var yZ = 0 
-var zZ = 1
-
-
-function calibrate()
-{
-  wZ = orientation[0]
-  xZ = orientation[1]
-  yZ = orientation[2]
-  zZ = orientation[3]
-}
-
-
