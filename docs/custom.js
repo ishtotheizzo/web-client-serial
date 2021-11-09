@@ -24,5 +24,17 @@ function handleWSMessage(obj)
       var qC = new Quaternion(mac2Bones[obj.id].calibration.x,mac2Bones[obj.id].calibration.y,mac2Bones[obj.id].calibration.z,mac2Bones[obj.id].calibration.w).inverse()
       var qR = q.mul(qC);
 
-      x.quaternion.set(qR.y, -qR.x, -qR.z, qR.w);
+      switch(bone){
+        case 'LeftForeArm':
+          x.quaternion.set(qR.y, -qR.x, -qR.z, qR.w);
+          break;
+       
+        case 'LeftArm':
+          x.quaternion.set(qR.y, -qR.x, -qR.z, qR.w);
+          break;
+       
+        default:
+         x.quaternion.set(qR.y, -qR.x, -qR.z, qR.w);
+         break;
+      }
 }
