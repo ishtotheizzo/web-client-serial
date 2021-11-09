@@ -3,7 +3,6 @@ var rigPrefix = "mixamorig";
 function calibrate()
 {
     var keys = Object.keys(mac2Bones);
-      console.log(keys);
     for(var i = 0; i < keys.length; i++){
       mac2Bones[keys[i]].calibration.x = mac2Bones[keys[i]].last.x;
       mac2Bones[keys[i]].calibration.y = mac2Bones[keys[i]].last.y;
